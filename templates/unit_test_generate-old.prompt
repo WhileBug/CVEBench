@@ -1,0 +1,8 @@
+Now there is a CVE in this repo:{cve_description}.
+{cve_changes_description}.
+Now I have fixed the CVE, but I need a unit test script to test my fix.
+Please create a unit test script for the CVE with the unit test script path as {unit_test_filename}.
+To be noted, if the unit test pass, "print('The ACI unit test is passed!!!')", else, "print('The ACI unit test is failed!!!')".
+Furthermore, please write an shell script for I can use the shell script to auto deploy the environment for the repo and to run the unit test script as "python {unit_test_filename}". And name the shell script as {shell_filename}.
+To be noted, before you write the shell script, please carefully review the repo's ReadMe about how to install and deploy the repo. And you should notice the python version the repo use.
+And your shell scripts is executed in the repo dir directly. So you do not need to cd into the repo dir.
