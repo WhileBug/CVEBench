@@ -14,6 +14,10 @@ gzip -d  CVEfixes_v1.0.8/Data/CVEfixes_v1.0.8.sql.gz
 sqlite3 CVEfixes.db < CVEfixes_v1.0.8/Data/CVEfixes_v1.0.8.sql
 ```
 
+## Run
 
-
-## Citation
+```shell
+python 1-prepare_repo.py
+python 2-run-agent.py
+python 3-verify.py
+```
